@@ -1,0 +1,6 @@
+Ouvrez Git Bash et exécutez la commande si vous souhaitez désactiver complètement la vérification SSL.
+
+git config --global http.sslVerify false
+Remarque : Cette solution vous ouvre la porte à des attaques telles que les attaques de type "man-in-the-middle" . Par conséquent, réactivez la vérification dès que possible :
+
+git config --global http.sslVerify true
