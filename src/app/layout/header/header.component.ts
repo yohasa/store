@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { PageHeader } from 'src/app/data/page-header';
 import { Header } from 'src/app/model/header';
 
@@ -8,5 +8,7 @@ import { Header } from 'src/app/model/header';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  public headerModel: Header = PageHeader; // model
+  // public headerModel: Header = PageHeader; // model
+  @Input() headerModel?: Header; // model
 }
+

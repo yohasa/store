@@ -8,5 +8,5 @@ import { PageData } from 'src/app/model/page-data';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
-  public contentModel: PageData = PageContent; // model
+  public contentModel?: PageData = PageContent; // model
 }
