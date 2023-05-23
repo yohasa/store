@@ -10,5 +10,5 @@ import { MenuItem } from 'src/app/model/menu-item';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
-   public menuItemsMosdel:Array<MenuItem> = item;
+   public menuItemsModel:Array<MenuItem> = item;
 }

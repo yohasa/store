@@ -6,7 +6,7 @@ import { ItemListComponent } from './screens/item-list/item-list.component';
 
 const routes: Routes = [
   {path: 'list', component: ItemListComponent},
-  {path: 'details', component: ItemDetailsComponent},
+  {path: 'item', component: ItemDetailsComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: '**', component: ItemListComponent}
 ];
